@@ -1,13 +1,16 @@
 require('dotenv').config()
 
-const express = require('express');
+var express = require('express');
 const mongodb = require('./connection');
-const app = express()
+var app = express();
 const port = process.env.PORT || 8080;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// app.get('/', (req, res) => {
+//   res.send('Hello World!');
+// })
+
+app.use('/', require('./routes'));
+
 
 app.get('/professional', async (req, res) => {
     const database = await mongodb.client.db("week2_team");
