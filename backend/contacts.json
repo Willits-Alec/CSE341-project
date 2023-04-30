@@ -1,0 +1,26 @@
+{
+    "contact": {
+        "firstName":"Sara",
+        "lastName":"Willits",
+        "email":"sara@willits.com",
+        "favoriteColor":"green",
+        "birthday":"11/28/99"
+    },
+
+    "contact2": {
+        "firstName":"Mike",
+        "lastName":"stevens",
+        "email":"mike@stevens.com",
+        "favoriteColor":"green",
+        "birthday":"06/15/84"
+    },
+
+    "contact3": {
+        "firstName":"Thomas",
+        "lastName":"Hanson",
+        "email":"thomas@hanson.com",
+        "favoriteColor":"green",
+        "birthday":"09/23/75"
+    }
+        
+}
